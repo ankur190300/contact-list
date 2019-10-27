@@ -1,0 +1,72 @@
+﻿<html>
+
+  <head>
+
+    <title>
+      <%= title %>
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/StyleSheet1.css"></link>
+  </head>
+  <body>
+    <p id="page-heading">
+      <i class="fa fa-address-card"></i>
+      contacts</p>
+    <div>
+      <%for(let i of contact_list) {%>
+
+
+        <div id="show_table">
+
+          <table  align="center" border="0px" >
+            <tr>
+
+              <td class="list_name">
+                <%= i.name %>
+              </td>
+
+              <td class="list_number">
+                <%= i.number %>
+              </td>
+            </tr>
+            
+            <tr>
+              
+			   
+                <td  class="delete" colspan="2">
+				<a id="lol" href= "/delete-contact/?id=<%= i._id %>" >
+                 
+                    delete <i class="fa fa-trash" aria-hidden="true" ></i>
+					
+                </a>
+                </td>
+               
+              
+              
+            </tr>
+            
+          </table>
+          <br>
+            <br>
+              
+            </div>
+            
+          
+        
+        <% }%>
+    </div>
+
+    <div align="center">
+      <form  action="/create-contact" method="POST">
+
+        <input id="input_name" type="text" name="name" placeholder="name" required="">
+
+          <input id="input_number" type="number" name ="number" placeholder="number" required="">
+
+            <button id="form_button" type=" submit">add contact</button>
+
+          </form>
+    </div>
+    <script type="text/javascript" src="/js/home.js"></script>;
+  </body>
+</html>

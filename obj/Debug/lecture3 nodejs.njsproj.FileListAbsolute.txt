@@ -1,0 +1,6 @@
+D:\Visual Studio\lecture3 nodejs\obj\Debug\lecture3 nodejs.njsprojAssemblyReference.cache
+D:\Visual Studio\lecture3 nodejs\obj\Debug\lecture3 nodejs.njsproj.CoreCompileInputs.cache
+D:\Visual Studio\lecture3 nodejs\bin\Microsoft.NodejsTools.WebRole.dll
+D:\Visual Studio\contact list\obj\Debug\lecture3 nodejs.njsprojAssemblyReference.cache
+D:\Visual Studio\contact list\obj\Debug\lecture3 nodejs.njsproj.CoreCompileInputs.cache
+D:\Visual Studio\contact list\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,35 @@
+﻿body {
+    background-color: yellow;
+}
+#home_heading{
+
+    text-align:center;
+    //height:20vh;
+    //width: 20vw;
+    margin: 40vh 0px 5vh 0px;
+    font-size: 120px;
+    font-weight:700;
+    color:darkblue;
+
+}
+
+#home_link {
+    text-align: center;
+    border-color: green;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+    margin-top: 20vh;
+    //text-decoration :none;
+
+    //background-color:brown;
+}
+#lol{
+    color:red;
+    text-decoration:none;
+}
+#home_link a:hover{
+
+   color:forestgreen;
+   text-decoration:none;
+}

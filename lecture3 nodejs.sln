@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "lecture3 nodejs", "lecture3 nodejs.njsproj", "{D1F66036-CCD3-4EB1-8A24-5133F7AC600B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1F66036-CCD3-4EB1-8A24-5133F7AC600B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F66036-CCD3-4EB1-8A24-5133F7AC600B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F66036-CCD3-4EB1-8A24-5133F7AC600B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F66036-CCD3-4EB1-8A24-5133F7AC600B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A6FEBE3-5753-4287-9D3A-BA96124DA79F}
+	EndGlobalSection
+EndGlobal
